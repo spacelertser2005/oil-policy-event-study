@@ -2,12 +2,30 @@
 data/raw/*.csv
 data/raw/*.xls
 data/raw/*.xlsx
+data/raw/*.parquet
+data/raw/*.pkl
 data/processed/*.csv
 data/processed/*.xlsx
+data/processed/*.parquet
+data/processed/*.pkl
 
 # Keep directory structure
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
+# Secrets / credentials
+.env
+.env.*
+*.env
+secrets.*
+credentials.*
+*.pem
+*.key
+.pgpass
+pgpass.conf
+wrds_credentials*
+.wrdsauth
+config.local.*
 
 # Python
 __pycache__/
@@ -16,6 +34,7 @@ __pycache__/
 .venv/
 venv/
 env/
+ENV/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -24,9 +43,11 @@ env/
 .DS_Store
 Thumbs.db
 
-# IDE
+# IDE / tooling
 .vscode/
 .idea/
+.claude/
+*.swp
 
 # Output (regenerable)
 output/tables/*.csv
@@ -35,3 +56,6 @@ output/figures/*.png
 output/figures/*.pdf
 !output/tables/.gitkeep
 !output/figures/.gitkeep
+
+# Logs
+*.log
