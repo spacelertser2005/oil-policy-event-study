@@ -1,0 +1,37 @@
+# Data files (too large for git, keep locally)
+data/raw/*.csv
+data/raw/*.xls
+data/raw/*.xlsx
+data/processed/*.csv
+data/processed/*.xlsx
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Output (regenerable)
+output/tables/*.csv
+output/tables/*.tex
+output/figures/*.png
+output/figures/*.pdf
+!output/tables/.gitkeep
+!output/figures/.gitkeep
