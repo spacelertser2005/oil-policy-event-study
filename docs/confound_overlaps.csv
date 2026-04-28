@@ -1,0 +1,15 @@
+event_date,event_description,confound_date,confound_type,confound_description,days_apart,recommendation
+2017-04-28,EO to expand offshore drilling and review Obama-era offshore bans,2017-04-28,gdp,BEA GDP advance estimate Q1 2017,0,flag
+2018-06-22,OPEC agrees to increase oil production at Vienna meeting,2018-06-22,opec_meeting,174th OPEC Conference (Vienna); agreed to increase output,0,keep
+2018-12-07,OPEC+ agrees to cut production by 1.2M bpd despite Trump opposition,2018-12-06,opec_meeting,175th OPEC Conference (Vienna); agreed 1.2M bpd cut,-1,keep
+2018-12-07,OPEC+ agrees to cut production by 1.2M bpd despite Trump opposition,2018-12-07,nfp,Non-Farm Payrolls release (Nov 2018),0,flag
+2019-06-20,Iran shoots down US drone; Trump orders then cancels strike,2019-06-19,fomc,FOMC statement (Jun 18-19 meeting),-1,flag
+2020-04-02,Trump brokers Saudi-Russia OPEC+ deal to cut production,2020-04-03,nfp,Non-Farm Payrolls release (Mar 2020),1,keep
+2025-02-03,OPEC+ JMMC meeting maintains existing production cuts,2025-02-03,opec_meeting,OPEC+ JMMC meeting (already in event catalog),0,keep
+2025-02-04,NSPM-2 reimposes maximum pressure sanctions on Iran,2025-02-03,opec_meeting,OPEC+ JMMC meeting (already in event catalog),-1,flag
+2025-03-07,Trump sends letter to Ayatollah Khamenei seeking nuclear negotiations,2025-03-07,nfp,Non-Farm Payrolls release (Feb 2025),0,flag
+2025-04-03,OPEC+ accelerates output restoration adding 411k bpd in May,2025-04-04,nfp,Non-Farm Payrolls release (Mar 2025),1,keep
+2025-05-03,OPEC+ announces second consecutive accelerated 411k bpd output hike,2025-05-02,nfp,Non-Farm Payrolls release (Apr 2025),-1,keep
+2025-11-30,OPEC+ reaffirms Q1 2026 output pause and extends cuts through 2026,2025-11-30,opec_meeting,40th OPEC+ Ministerial Meeting (already in event catalog),0,keep
+2026-02-28,Operation Epic Fury: US-Israel air campaign against Iran,2026-03-01,opec_meeting,OPEC+ emergency Ministerial Meeting (already in event catalog),1,keep
+2026-03-01,OPEC+ emergency meeting agrees to 206k bpd increase amid Hormuz closure,2026-03-01,opec_meeting,OPEC+ emergency Ministerial Meeting (already in event catalog),0,keep

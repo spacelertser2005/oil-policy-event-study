@@ -1,0 +1,275 @@
+date,type,description
+2017-02-01,fomc,FOMC statement (Jan 31-Feb 1 meeting)
+2017-02-03,nfp,Non-Farm Payrolls release (Jan 2017)
+2017-03-03,nfp,Non-Farm Payrolls release (Feb 2017)
+2017-03-15,fomc,FOMC statement with rate hike (Mar 14-15 meeting)
+2017-04-07,nfp,Non-Farm Payrolls release (Mar 2017)
+2017-04-28,gdp,BEA GDP advance estimate Q1 2017
+2017-05-03,fomc,FOMC statement (May 2-3 meeting)
+2017-05-05,nfp,Non-Farm Payrolls release (Apr 2017)
+2017-05-25,opec_meeting,172nd OPEC Conference (Vienna)
+2017-06-02,nfp,Non-Farm Payrolls release (May 2017)
+2017-06-14,fomc,FOMC statement with rate hike (Jun 13-14 meeting)
+2017-07-07,nfp,Non-Farm Payrolls release (Jun 2017)
+2017-07-26,fomc,FOMC statement (Jul 25-26 meeting)
+2017-07-28,gdp,BEA GDP advance estimate Q2 2017
+2017-08-04,nfp,Non-Farm Payrolls release (Jul 2017)
+2017-09-01,nfp,Non-Farm Payrolls release (Aug 2017)
+2017-09-20,fomc,FOMC statement (Sep 19-20 meeting)
+2017-10-06,nfp,Non-Farm Payrolls release (Sep 2017)
+2017-10-27,gdp,BEA GDP advance estimate Q3 2017
+2017-11-01,fomc,FOMC statement (Oct 31-Nov 1 meeting)
+2017-11-03,nfp,Non-Farm Payrolls release (Oct 2017)
+2017-11-30,opec_meeting,173rd OPEC Conference and 3rd OPEC+ Ministerial Meeting (Vienna)
+2017-12-08,nfp,Non-Farm Payrolls release (Nov 2017)
+2017-12-13,fomc,FOMC statement with rate hike (Dec 12-13 meeting)
+2018-01-05,nfp,Non-Farm Payrolls release (Dec 2017)
+2018-01-26,gdp,BEA GDP advance estimate Q4 2017
+2018-01-31,fomc,FOMC statement (Jan 30-31 meeting)
+2018-02-02,nfp,Non-Farm Payrolls release (Jan 2018)
+2018-03-09,nfp,Non-Farm Payrolls release (Feb 2018)
+2018-03-21,fomc,FOMC statement with rate hike (Mar 20-21 meeting)
+2018-04-06,nfp,Non-Farm Payrolls release (Mar 2018)
+2018-04-27,gdp,BEA GDP advance estimate Q1 2018
+2018-05-02,fomc,FOMC statement (May 1-2 meeting)
+2018-05-04,nfp,Non-Farm Payrolls release (Apr 2018)
+2018-06-01,nfp,Non-Farm Payrolls release (May 2018)
+2018-06-13,fomc,FOMC statement with rate hike (Jun 12-13 meeting)
+2018-06-22,opec_meeting,174th OPEC Conference (Vienna); agreed to increase output
+2018-07-06,nfp,Non-Farm Payrolls release (Jun 2018)
+2018-07-27,gdp,BEA GDP advance estimate Q2 2018
+2018-08-01,fomc,FOMC statement (Jul 31-Aug 1 meeting)
+2018-08-03,nfp,Non-Farm Payrolls release (Jul 2018)
+2018-09-07,nfp,Non-Farm Payrolls release (Aug 2018)
+2018-09-26,fomc,FOMC statement with rate hike (Sep 25-26 meeting)
+2018-10-05,nfp,Non-Farm Payrolls release (Sep 2018)
+2018-10-26,gdp,BEA GDP advance estimate Q3 2018
+2018-11-02,nfp,Non-Farm Payrolls release (Oct 2018)
+2018-11-08,fomc,FOMC statement (Nov 7-8 meeting)
+2018-12-06,opec_meeting,175th OPEC Conference (Vienna); agreed 1.2M bpd cut
+2018-12-07,nfp,Non-Farm Payrolls release (Nov 2018)
+2018-12-19,fomc,FOMC statement with rate hike (Dec 18-19 meeting)
+2019-01-04,nfp,Non-Farm Payrolls release (Dec 2018)
+2019-01-30,fomc,FOMC statement (Jan 29-30 meeting)
+2019-02-01,nfp,Non-Farm Payrolls release (Jan 2019)
+2019-03-08,nfp,Non-Farm Payrolls release (Feb 2019)
+2019-03-20,fomc,FOMC statement (Mar 19-20 meeting)
+2019-03-28,gdp,BEA GDP advance estimate Q4 2018 (delayed from Jan due to govt shutdown)
+2019-04-05,nfp,Non-Farm Payrolls release (Mar 2019)
+2019-04-26,gdp,BEA GDP advance estimate Q1 2019
+2019-05-01,fomc,FOMC statement (Apr 30-May 1 meeting)
+2019-05-03,nfp,Non-Farm Payrolls release (Apr 2019)
+2019-06-07,nfp,Non-Farm Payrolls release (May 2019)
+2019-06-19,fomc,FOMC statement (Jun 18-19 meeting)
+2019-07-01,opec_meeting,176th OPEC Conference (Vienna)
+2019-07-05,nfp,Non-Farm Payrolls release (Jun 2019)
+2019-07-26,gdp,BEA GDP advance estimate Q2 2019
+2019-07-31,fomc,FOMC statement with rate cut (Jul 30-31 meeting)
+2019-08-02,nfp,Non-Farm Payrolls release (Jul 2019)
+2019-09-06,nfp,Non-Farm Payrolls release (Aug 2019)
+2019-09-18,fomc,FOMC statement with rate cut (Sep 17-18 meeting)
+2019-10-04,nfp,Non-Farm Payrolls release (Sep 2019)
+2019-10-30,fomc,FOMC statement with rate cut (Oct 29-30 meeting)
+2019-10-30,gdp,BEA GDP advance estimate Q3 2019
+2019-11-01,nfp,Non-Farm Payrolls release (Oct 2019)
+2019-12-05,opec_meeting,177th OPEC Conference and 7th OPEC+ Ministerial Meeting (Vienna)
+2019-12-06,nfp,Non-Farm Payrolls release (Nov 2019)
+2019-12-11,fomc,FOMC statement (Dec 10-11 meeting)
+2020-01-10,nfp,Non-Farm Payrolls release (Dec 2019)
+2020-01-29,fomc,FOMC statement (Jan 28-29 meeting)
+2020-01-30,gdp,BEA GDP advance estimate Q4 2019
+2020-02-07,nfp,Non-Farm Payrolls release (Jan 2020)
+2020-03-03,fomc,Emergency FOMC rate cut (50 bps)
+2020-03-05,opec_meeting,178th OPEC Conference Extraordinary Meeting (Vienna; talks collapsed)
+2020-03-06,nfp,Non-Farm Payrolls release (Feb 2020)
+2020-03-11,geopolitical,WHO declares COVID-19 a global pandemic
+2020-03-15,fomc,Emergency FOMC rate cut to near zero (100 bps)
+2020-03-16,geopolitical,US nationwide COVID lockdown guidelines announced (15 Days to Slow the Spread)
+2020-04-03,nfp,Non-Farm Payrolls release (Mar 2020)
+2020-04-20,geopolitical,WTI futures turn negative for first time in history (May contract at -$37.63)
+2020-04-29,fomc,FOMC statement (Apr 28-29 meeting)
+2020-04-29,gdp,BEA GDP advance estimate Q1 2020
+2020-05-08,nfp,Non-Farm Payrolls release (Apr 2020)
+2020-06-05,nfp,Non-Farm Payrolls release (May 2020)
+2020-06-06,opec_meeting,179th OPEC Conference via videoconference
+2020-06-10,fomc,FOMC statement (Jun 9-10 meeting)
+2020-07-02,nfp,Non-Farm Payrolls release (Jun 2020)
+2020-07-29,fomc,FOMC statement (Jul 28-29 meeting)
+2020-07-30,gdp,BEA GDP advance estimate Q2 2020
+2020-08-07,nfp,Non-Farm Payrolls release (Jul 2020)
+2020-09-04,nfp,Non-Farm Payrolls release (Aug 2020)
+2020-09-16,fomc,FOMC statement (Sep 15-16 meeting)
+2020-10-02,nfp,Non-Farm Payrolls release (Sep 2020)
+2020-10-29,gdp,BEA GDP advance estimate Q3 2020
+2020-11-05,fomc,FOMC statement (Nov 4-5 meeting)
+2020-11-06,nfp,Non-Farm Payrolls release (Oct 2020)
+2020-12-01,opec_meeting,180th OPEC Conference and 12th OPEC+ Ministerial Meeting (Vienna; reconvened)
+2020-12-04,nfp,Non-Farm Payrolls release (Nov 2020)
+2020-12-16,fomc,FOMC statement (Dec 15-16 meeting)
+2021-01-08,nfp,Non-Farm Payrolls release (Dec 2020)
+2021-01-27,fomc,FOMC statement (Jan 26-27 meeting)
+2021-01-28,gdp,BEA GDP advance estimate Q4 2020
+2021-02-05,nfp,Non-Farm Payrolls release (Jan 2021)
+2021-03-05,nfp,Non-Farm Payrolls release (Feb 2021)
+2021-03-17,fomc,FOMC statement (Mar 16-17 meeting)
+2021-04-01,opec_meeting,15th OPEC+ Ministerial Meeting
+2021-04-02,nfp,Non-Farm Payrolls release (Mar 2021)
+2021-04-28,fomc,FOMC statement (Apr 27-28 meeting)
+2021-04-29,gdp,BEA GDP advance estimate Q1 2021
+2021-05-07,nfp,Non-Farm Payrolls release (Apr 2021)
+2021-06-01,opec_meeting,16th OPEC+ Ministerial Meeting
+2021-06-04,nfp,Non-Farm Payrolls release (May 2021)
+2021-06-16,fomc,FOMC statement (Jun 15-16 meeting)
+2021-07-02,nfp,Non-Farm Payrolls release (Jun 2021)
+2021-07-18,opec_meeting,19th OPEC+ Ministerial Meeting
+2021-07-28,fomc,FOMC statement (Jul 27-28 meeting)
+2021-07-29,gdp,BEA GDP advance estimate Q2 2021
+2021-08-06,nfp,Non-Farm Payrolls release (Jul 2021)
+2021-09-01,opec_meeting,20th OPEC+ Ministerial Meeting
+2021-09-03,nfp,Non-Farm Payrolls release (Aug 2021)
+2021-09-22,fomc,FOMC statement (Sep 21-22 meeting)
+2021-10-04,opec_meeting,21st OPEC+ Ministerial Meeting
+2021-10-08,nfp,Non-Farm Payrolls release (Sep 2021)
+2021-10-28,gdp,BEA GDP advance estimate Q3 2021
+2021-11-03,fomc,FOMC statement (Nov 2-3 meeting)
+2021-11-04,opec_meeting,22nd OPEC+ Ministerial Meeting
+2021-11-05,nfp,Non-Farm Payrolls release (Oct 2021)
+2021-12-02,opec_meeting,23rd OPEC+ Ministerial Meeting
+2021-12-03,nfp,Non-Farm Payrolls release (Nov 2021)
+2021-12-15,fomc,FOMC statement (Dec 14-15 meeting)
+2022-01-04,opec_meeting,24th OPEC+ Ministerial Meeting
+2022-01-07,nfp,Non-Farm Payrolls release (Dec 2021)
+2022-01-26,fomc,FOMC statement (Jan 25-26 meeting)
+2022-01-27,gdp,BEA GDP advance estimate Q4 2021
+2022-02-02,opec_meeting,25th OPEC+ Ministerial Meeting
+2022-02-04,nfp,Non-Farm Payrolls release (Jan 2022)
+2022-02-24,geopolitical,Russia invades Ukraine; oil surges above $100/bbl
+2022-03-02,opec_meeting,26th OPEC+ Ministerial Meeting
+2022-03-04,nfp,Non-Farm Payrolls release (Feb 2022)
+2022-03-08,geopolitical,US bans Russian oil imports; Brent hits $127/bbl
+2022-03-16,fomc,FOMC statement with first rate hike of cycle (25 bps)
+2022-03-31,opec_meeting,27th OPEC+ Ministerial Meeting
+2022-04-01,nfp,Non-Farm Payrolls release (Mar 2022)
+2022-04-28,gdp,BEA GDP advance estimate Q1 2022
+2022-05-04,fomc,FOMC statement with 50 bps rate hike
+2022-05-05,opec_meeting,28th OPEC+ Ministerial Meeting
+2022-05-06,nfp,Non-Farm Payrolls release (Apr 2022)
+2022-06-02,opec_meeting,29th OPEC+ Ministerial Meeting
+2022-06-03,nfp,Non-Farm Payrolls release (May 2022)
+2022-06-15,fomc,FOMC statement with 75 bps rate hike
+2022-06-30,opec_meeting,30th OPEC+ Ministerial Meeting
+2022-07-08,nfp,Non-Farm Payrolls release (Jun 2022)
+2022-07-27,fomc,FOMC statement with 75 bps rate hike
+2022-07-28,gdp,BEA GDP advance estimate Q2 2022
+2022-08-03,opec_meeting,31st OPEC+ Ministerial Meeting
+2022-08-05,nfp,Non-Farm Payrolls release (Jul 2022)
+2022-09-02,nfp,Non-Farm Payrolls release (Aug 2022)
+2022-09-05,opec_meeting,32nd OPEC+ Ministerial Meeting
+2022-09-21,fomc,FOMC statement with 75 bps rate hike
+2022-10-05,opec_meeting,33rd OPEC+ Ministerial Meeting (2M bpd cut)
+2022-10-07,nfp,Non-Farm Payrolls release (Sep 2022)
+2022-10-27,gdp,BEA GDP advance estimate Q3 2022
+2022-11-02,fomc,FOMC statement with 75 bps rate hike
+2022-11-04,nfp,Non-Farm Payrolls release (Oct 2022)
+2022-12-02,nfp,Non-Farm Payrolls release (Nov 2022)
+2022-12-04,opec_meeting,34th OPEC+ Ministerial Meeting
+2022-12-14,fomc,FOMC statement with 50 bps rate hike
+2023-01-06,nfp,Non-Farm Payrolls release (Dec 2022)
+2023-01-26,gdp,BEA GDP advance estimate Q4 2022
+2023-02-01,fomc,FOMC statement with 25 bps rate hike
+2023-02-03,nfp,Non-Farm Payrolls release (Jan 2023)
+2023-03-10,geopolitical,Silicon Valley Bank collapses; banking crisis fears spike
+2023-03-10,nfp,Non-Farm Payrolls release (Feb 2023)
+2023-03-22,fomc,FOMC statement with 25 bps rate hike (amid banking stress)
+2023-04-07,nfp,Non-Farm Payrolls release (Mar 2023)
+2023-04-27,gdp,BEA GDP advance estimate Q1 2023
+2023-05-03,fomc,FOMC statement with 25 bps rate hike (last of cycle)
+2023-05-05,nfp,Non-Farm Payrolls release (Apr 2023)
+2023-06-02,nfp,Non-Farm Payrolls release (May 2023)
+2023-06-04,opec_meeting,35th OPEC+ Ministerial Meeting
+2023-06-14,fomc,FOMC statement (hold)
+2023-07-07,nfp,Non-Farm Payrolls release (Jun 2023)
+2023-07-26,fomc,FOMC statement with 25 bps rate hike
+2023-07-27,gdp,BEA GDP advance estimate Q2 2023
+2023-08-04,nfp,Non-Farm Payrolls release (Jul 2023)
+2023-09-01,nfp,Non-Farm Payrolls release (Aug 2023)
+2023-09-20,fomc,FOMC statement (hold)
+2023-10-06,nfp,Non-Farm Payrolls release (Sep 2023)
+2023-10-07,geopolitical,Hamas attacks Israel; Israel-Hamas war begins
+2023-10-26,gdp,BEA GDP advance estimate Q3 2023
+2023-11-01,fomc,FOMC statement (hold)
+2023-11-03,nfp,Non-Farm Payrolls release (Oct 2023)
+2023-11-19,geopolitical,Houthi rebels begin attacks on Red Sea shipping
+2023-11-30,opec_meeting,36th OPEC+ Ministerial Meeting
+2023-12-08,nfp,Non-Farm Payrolls release (Nov 2023)
+2023-12-13,fomc,FOMC statement (hold; dovish pivot)
+2024-01-05,nfp,Non-Farm Payrolls release (Dec 2023)
+2024-01-25,gdp,BEA GDP advance estimate Q4 2023
+2024-01-31,fomc,FOMC statement (hold)
+2024-02-02,nfp,Non-Farm Payrolls release (Jan 2024)
+2024-03-08,nfp,Non-Farm Payrolls release (Feb 2024)
+2024-03-20,fomc,FOMC statement (hold)
+2024-04-05,nfp,Non-Farm Payrolls release (Mar 2024)
+2024-04-13,geopolitical,Iran launches drone/missile attack on Israel (first direct attack)
+2024-04-25,gdp,BEA GDP advance estimate Q1 2024
+2024-05-01,fomc,FOMC statement (hold)
+2024-05-03,nfp,Non-Farm Payrolls release (Apr 2024)
+2024-06-02,opec_meeting,37th OPEC+ Ministerial Meeting
+2024-06-07,nfp,Non-Farm Payrolls release (May 2024)
+2024-06-12,fomc,FOMC statement (hold)
+2024-07-05,nfp,Non-Farm Payrolls release (Jun 2024)
+2024-07-25,gdp,BEA GDP advance estimate Q2 2024
+2024-07-31,fomc,FOMC statement (hold)
+2024-08-02,nfp,Non-Farm Payrolls release (Jul 2024)
+2024-08-05,geopolitical,Global stock market crash (Japan carry trade unwind; VIX spikes to 65)
+2024-09-06,nfp,Non-Farm Payrolls release (Aug 2024)
+2024-09-18,fomc,FOMC statement with 50 bps rate cut (first cut of cycle)
+2024-10-01,geopolitical,Iran launches second missile barrage at Israel (~200 ballistic missiles)
+2024-10-04,nfp,Non-Farm Payrolls release (Sep 2024)
+2024-10-30,gdp,BEA GDP advance estimate Q3 2024
+2024-11-01,nfp,Non-Farm Payrolls release (Oct 2024)
+2024-11-05,geopolitical,US presidential election (Trump wins)
+2024-11-07,fomc,FOMC statement with 25 bps rate cut
+2024-12-05,opec_meeting,38th OPEC+ Ministerial Meeting
+2024-12-06,nfp,Non-Farm Payrolls release (Nov 2024)
+2024-12-18,fomc,FOMC statement with 25 bps rate cut
+2025-01-10,nfp,Non-Farm Payrolls release (Dec 2024)
+2025-01-29,fomc,FOMC statement (hold)
+2025-01-30,gdp,BEA GDP advance estimate Q4 2024
+2025-02-03,opec_meeting,OPEC+ JMMC meeting (already in event catalog)
+2025-02-07,nfp,Non-Farm Payrolls release (Jan 2025)
+2025-03-07,nfp,Non-Farm Payrolls release (Feb 2025)
+2025-03-19,fomc,FOMC statement (hold)
+2025-04-04,nfp,Non-Farm Payrolls release (Mar 2025)
+2025-04-30,gdp,BEA GDP advance estimate Q1 2025
+2025-05-02,nfp,Non-Farm Payrolls release (Apr 2025)
+2025-05-07,fomc,FOMC statement (hold)
+2025-05-28,opec_meeting,39th OPEC+ Ministerial Meeting
+2025-06-06,nfp,Non-Farm Payrolls release (May 2025)
+2025-06-18,fomc,FOMC statement
+2025-07-03,nfp,Non-Farm Payrolls release (Jun 2025)
+2025-07-30,fomc,FOMC statement
+2025-07-30,gdp,BEA GDP advance estimate Q2 2025
+2025-08-01,nfp,Non-Farm Payrolls release (Jul 2025)
+2025-09-05,nfp,Non-Farm Payrolls release (Aug 2025)
+2025-09-17,fomc,FOMC statement
+2025-10-03,nfp,Non-Farm Payrolls release (Sep 2025)
+2025-10-29,fomc,FOMC statement
+2025-10-30,gdp,BEA GDP advance estimate Q3 2025
+2025-11-07,nfp,Non-Farm Payrolls release (Oct 2025)
+2025-11-30,opec_meeting,40th OPEC+ Ministerial Meeting (already in event catalog)
+2025-12-05,nfp,Non-Farm Payrolls release (Nov 2025)
+2025-12-10,fomc,FOMC statement
+2026-01-04,opec_meeting,OPEC+ Ministerial steering group meeting
+2026-01-09,nfp,Non-Farm Payrolls release (Dec 2025)
+2026-01-28,fomc,FOMC statement (Jan 27-28 meeting)
+2026-01-29,gdp,BEA GDP advance estimate Q4 2025
+2026-02-01,opec_meeting,OPEC+ Ministerial Meeting
+2026-02-06,nfp,Non-Farm Payrolls release (Jan 2026)
+2026-03-01,opec_meeting,OPEC+ emergency Ministerial Meeting (already in event catalog; Hormuz crisis)
+2026-03-06,nfp,Non-Farm Payrolls release (Feb 2026)
+2026-03-18,fomc,FOMC statement (Mar 17-18 meeting)
+2026-04-03,nfp,Non-Farm Payrolls release (Mar 2026)
+2026-04-04,opec_meeting,OPEC+ Ministerial Meeting
+2026-04-29,fomc,FOMC statement (Apr 28-29 meeting)
+2026-04-30,gdp,BEA GDP advance estimate Q1 2026

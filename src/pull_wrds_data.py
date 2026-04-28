@@ -54,9 +54,15 @@ def pull_stock_data(conn):
 
 
 def pull_sp500_index(conn):
-    """Pull S&P 500 daily index level and returns."""
+    """Pull S&P 500 daily index level and returns.
+
+    Tries crsp.dsp500_v2 first, then crsp.dsi.  If the S&P 500 data
+    has a gap (e.g. dsi only through Dec 2024), supplements with SPY
+    ETF returns from crsp.dsf_v2 (available through Dec 2025).
+    """
     print("Pulling S&P 500 index data...")
-    
+
+    sp500 = None
     try:
         sp500 = conn.raw_sql(f"""
             SELECT caldt AS date, spindx, sprtrn
@@ -66,15 +72,45 @@ def pull_sp500_index(conn):
         """, date_cols=['date'])
         print(f"  Retrieved {len(sp500)} rows from crsp.dsp500_v2")
     except Exception as e:
-        print(f"  V2 failed ({e}), trying legacy...")
-        sp500 = conn.raw_sql(f"""
-            SELECT caldt AS date, spindx, sprtrn
-            FROM crsp.dsi
-            WHERE caldt BETWEEN '{START_DATE}' AND '{END_DATE}'
-            ORDER BY caldt
+        print(f"  V2 failed ({e}), trying legacy crsp.dsi...")
+        try:
+            sp500 = conn.raw_sql(f"""
+                SELECT date, spindx, sprtrn
+                FROM crsp.dsi
+                WHERE date BETWEEN '{START_DATE}' AND '{END_DATE}'
+                ORDER BY date
+            """, date_cols=['date'])
+            print(f"  Retrieved {len(sp500)} rows from crsp.dsi")
+        except Exception as e2:
+            print(f"  dsi also failed ({e2})")
+
+    # Supplement with SPY ETF returns for dates beyond S&P 500 coverage
+    try:
+        spy = conn.raw_sql(f"""
+            SELECT dlycaldt AS date, dlyret AS sprtrn
+            FROM crsp.dsf_v2
+            WHERE ticker = 'SPY'
+            AND dlycaldt BETWEEN '{START_DATE}' AND '{END_DATE}'
+            ORDER BY dlycaldt
         """, date_cols=['date'])
-        print(f"  Retrieved {len(sp500)} rows from crsp.dsi")
-    
+        print(f"  Retrieved {len(spy)} rows of SPY (market proxy) from crsp.dsf_v2")
+
+        if sp500 is not None and len(sp500) > 0:
+            sp500_dates = set(sp500['date'])
+            spy_fill = spy[~spy['date'].isin(sp500_dates)].copy()
+            if len(spy_fill) > 0:
+                print(f"  Supplementing {len(spy_fill)} gap dates with SPY returns")
+                sp500 = pd.concat([sp500, spy_fill], ignore_index=True)
+                sp500 = sp500.sort_values('date').reset_index(drop=True)
+        elif sp500 is None or len(sp500) == 0:
+            print("  Using SPY as sole market proxy (S&P 500 tables unavailable)")
+            sp500 = spy
+    except Exception as e3:
+        print(f"  SPY supplement failed ({e3}) — equity analysis limited to S&P 500 date range")
+
+    if sp500 is not None:
+        print(f"  Final market data: {sp500['date'].min().date()} to {sp500['date'].max().date()}")
+
     return sp500
 
 
